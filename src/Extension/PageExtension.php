@@ -1,5 +1,12 @@
 <?php
 
+namespace Robbie\MeetupDemo\Extension;
+
+use DataExtension;
+use FieldList;
+use TextField;
+
+
 class PageExtension extends DataExtension {
 
 	private static $db = array(
