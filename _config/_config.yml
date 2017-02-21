@@ -4,9 +4,9 @@ Name: meetupdemoconfig
 # A useless extension
 Page:
   extensions:
-    - PageExtension
+    - Robbie\MeetupDemo\Extension\PageExtension
 
 # Throw in the injector, why not
-Injector:
+SilverStripe\Core\Injector\Injector:
   Player:
-    class: CricketPlayer
+    class: Robbie\MeetupDemo\Model\CricketPlayer
