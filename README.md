@@ -6,7 +6,7 @@ This module is a very basic example of a SilverStripe 3.x module and how you mig
 
 ## Requirements
 
-* SilverStripe ^3.2
+* SilverStripe ^4.0
 
 ## Contents
 
