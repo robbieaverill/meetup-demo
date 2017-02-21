@@ -6,9 +6,9 @@ class CricketPlayerTest extends SapphireTest {
 
 	public function testCanAddPlayerToTeam() {
 		// Not using a fixture just to keep it on one screen
-		$player = new CricketPlayer(['Name' => 'Jonty']);
+		$player = new CricketPlayer(array('Name' => 'Jonty'));
 		$player->write();
-		$team = new CricketTeam(['Name' => 'Kings']);
+		$team = new CricketTeam(array('Name' => 'Kings'));
 		$team->write();
 
 		$team->Players()->add($player);
@@ -19,7 +19,7 @@ class CricketPlayerTest extends SapphireTest {
 
 	public function testInjectorAliasWorks()
 	{
-		$this->assertInstanceOf(CricketPlayer::class, Injector::inst()->get('Player'));
+		$this->assertInstanceOf('CricketPlayer', Injector::inst()->get('Player'));
 	}
 
 }
