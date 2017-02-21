@@ -1,5 +1,13 @@
 <?php
 
+namespace Robbie\MeetupDemo\Test;
+
+use SapphireTest;
+use CricketPlayer;
+use CricketTeam;
+use Injector;
+
+
 class CricketPlayerTest extends SapphireTest {
 
 	protected $usesDatabase = true;

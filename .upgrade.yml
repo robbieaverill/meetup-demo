@@ -2,3 +2,4 @@ mappings:
   CricketPlayer: Robbie\MeetupDemo\Model\CricketPlayer
   CricketTeam: Robbie\MeetupDemo\Model\CricketTeam
   PageExtension: Robbie\MeetupDemo\Extension\PageExtension
+  CricketPlayerTest: Robbie\MeetupDemo\Test\CricketPlayerTest
