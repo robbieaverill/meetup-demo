@@ -1,0 +1,16 @@
+{
+    "name": "robbieaverill/meetup-demo",
+    "description": "A demo module for upgrading as part of the Wellington SilverStripe meetup, Feb 2017",
+    "type": "silverstripe-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robbie Averill",
+            "email": "robbie@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^3.2",
+        "silverstripe/cms": "^3.2"
+    }
+}

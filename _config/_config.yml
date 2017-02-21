@@ -1,0 +1,12 @@
+---
+Name: meetupdemoconfig
+---
+# A useless extension
+Page:
+  extensions:
+    - PageExtension
+
+# Throw in the injector, why not
+Injector:
+  Player:
+    class: CricketPlayer
