@@ -2,7 +2,9 @@
 
 namespace Robbie\MeetupDemo\Task;
 
-use BuildTask;
+
+use SilverStripe\Dev\BuildTask;
+
 
 class DoesNothingTask extends BuildTask
 {

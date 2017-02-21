@@ -2,7 +2,10 @@
 
 namespace Robbie\MeetupDemo\Model;
 
-use DataObject;
+
+use Robbie\MeetupDemo\Model\CricketTeam;
+use SilverStripe\ORM\DataObject;
+
 
 class CricketPlayer extends DataObject
 {
@@ -13,6 +16,6 @@ class CricketPlayer extends DataObject
     );
 
     private static $has_one = array(
-        'Team' => 'CricketTeam'
+        'Team' => CricketTeam::class
     );
 }

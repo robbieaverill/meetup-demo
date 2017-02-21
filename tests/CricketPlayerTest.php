@@ -2,10 +2,15 @@
 
 namespace Robbie\MeetupDemo\Test;
 
-use SapphireTest;
-use CricketPlayer;
-use CricketTeam;
-use Injector;
+
+
+
+
+use Robbie\MeetupDemo\Model\CricketPlayer;
+use Robbie\MeetupDemo\Model\CricketTeam;
+use SilverStripe\Core\Injector\Injector;
+use SilverStripe\Dev\SapphireTest;
+
 
 class CricketPlayerTest extends SapphireTest
 {
@@ -28,6 +33,6 @@ class CricketPlayerTest extends SapphireTest
 
     public function testInjectorAliasWorks()
     {
-        $this->assertInstanceOf('CricketPlayer', Injector::inst()->get('Player'));
+        $this->assertInstanceOf(CricketPlayer::class, Injector::inst()->get('Player'));
     }
 }

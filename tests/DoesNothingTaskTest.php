@@ -2,9 +2,12 @@
 
 namespace Robbie\MeetupDemo\Test;
 
-use SapphireTest;
+
 use Robbie\MeetupDemo\Task\DoesNothingTask;
-use SS_HTTPRequest;
+
+use SilverStripe\Control\HTTPRequest;
+use SilverStripe\Dev\SapphireTest;
+
 
 class DoesNothingTaskTest extends SapphireTest
 {
@@ -23,7 +26,7 @@ class DoesNothingTaskTest extends SapphireTest
 
         // Tasks output directly, so we have to buffer the output to test it
         $buffer = ob_start();
-        $task->run(new SS_HTTPRequest('GET', '/'));
+        $task->run(new HTTPRequest('GET', '/'));
         $result = ob_get_clean();
 
         $this->assertContains('technically it did something', $result);
