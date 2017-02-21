@@ -4,13 +4,15 @@ namespace Robbie\MeetupDemo\Task;
 
 use BuildTask;
 
-class DoesNothingTask extends BuildTask {
+class DoesNothingTask extends BuildTask
+{
 
-	protected $title = 'Does Nothing Task';
+    protected $title = 'Does Nothing Task';
 
-	protected $description = 'This task literally does nothing.';
+    protected $description = 'This task literally does nothing.';
 
-	public function run($request) {
-		echo 'Well, technically it did something.', PHP_EOL;
-	}
+    public function run($request)
+    {
+        echo 'Well, technically it did something.', PHP_EOL;
+    }
 }

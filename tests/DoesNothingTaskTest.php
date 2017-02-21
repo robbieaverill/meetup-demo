@@ -6,16 +6,19 @@ use SapphireTest;
 use Robbie\MeetupDemo\Task\DoesNothingTask;
 use SS_HTTPRequest;
 
-class DoesNothingTaskTest extends SapphireTest {
+class DoesNothingTaskTest extends SapphireTest
+{
 
-    public function testTitleAndDescription() {
+    public function testTitleAndDescription()
+    {
         $task = new DoesNothingTask;
 
         $this->assertContains('Does Nothing', $task->getTitle());
         $this->assertContains('literally does nothing.', $task->getDescription());
     }
 
-    public function testActuallyDoesntLiterallyDoNothing() {
+    public function testActuallyDoesntLiterallyDoNothing()
+    {
         $task = new DoesNothingTask;
 
         // Tasks output directly, so we have to buffer the output to test it
