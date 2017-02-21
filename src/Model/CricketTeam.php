@@ -1,5 +1,10 @@
 <?php
 
+namespace Robbie\MeetupDemo\Model;
+
+use DataObject;
+
+
 class CricketTeam extends DataObject {
 
 	private static $db = array(
