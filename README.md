@@ -14,6 +14,7 @@ This module is a very basic example of a SilverStripe 3.x module and how you mig
 * A CricketTeam DataObject (with relation to players)
 * A useless Page extension
 * A simple example of injector use
+* A BuildTask that does nothing (or does it?!)
 * Some simple unit tests
 
 ## Branches
