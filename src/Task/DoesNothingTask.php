@@ -2,13 +2,10 @@
 
 namespace Robbie\MeetupDemo\Task;
 
-
 use SilverStripe\Dev\BuildTask;
-
 
 class DoesNothingTask extends BuildTask
 {
-
     protected $title = 'Does Nothing Task';
 
     protected $description = 'This task literally does nothing.';

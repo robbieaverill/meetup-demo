@@ -2,16 +2,12 @@
 
 namespace Robbie\MeetupDemo\Test;
 
-
 use Robbie\MeetupDemo\Task\DoesNothingTask;
-
 use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Dev\SapphireTest;
 
-
 class DoesNothingTaskTest extends SapphireTest
 {
-
     public function testTitleAndDescription()
     {
         $task = new DoesNothingTask;

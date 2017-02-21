@@ -2,17 +2,12 @@
 
 namespace Robbie\MeetupDemo\Extension;
 
-
-
-
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 use SilverStripe\ORM\DataExtension;
 
-
 class PageExtension extends DataExtension
 {
-
     private static $db = array(
         'SomeField' => 'Varchar'
     );

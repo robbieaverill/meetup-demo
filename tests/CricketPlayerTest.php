@@ -2,19 +2,13 @@
 
 namespace Robbie\MeetupDemo\Test;
 
-
-
-
-
 use Robbie\MeetupDemo\Model\CricketPlayer;
 use Robbie\MeetupDemo\Model\CricketTeam;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Dev\SapphireTest;
 
-
 class CricketPlayerTest extends SapphireTest
 {
-
     protected $usesDatabase = true;
 
     public function testCanAddPlayerToTeam()

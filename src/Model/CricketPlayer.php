@@ -2,17 +2,14 @@
 
 namespace Robbie\MeetupDemo\Model;
 
-
 use Robbie\MeetupDemo\Model\CricketTeam;
 use SilverStripe\ORM\DataObject;
 
-
 class CricketPlayer extends DataObject
 {
-
     private static $db = array(
         'Name' => 'Varchar',
-        'Birthday' => 'SS_Datetime'
+        'Birthday' => 'DBDatetime'
     );
 
     private static $has_one = array(
