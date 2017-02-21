@@ -1,5 +1,9 @@
 <?php
 
+namespace Robbie\MeetupDemo\Task;
+
+use BuildTask;
+
 class DoesNothingTask extends BuildTask {
 
 	protected $title = 'Does Nothing Task';

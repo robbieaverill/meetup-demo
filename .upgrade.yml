@@ -3,3 +3,4 @@ mappings:
   CricketTeam: Robbie\MeetupDemo\Model\CricketTeam
   PageExtension: Robbie\MeetupDemo\Extension\PageExtension
   CricketPlayerTest: Robbie\MeetupDemo\Test\CricketPlayerTest
+  DoesNothingTaskTest: Robbie\MeetupDemo\Task\DoesNothingTaskTest
