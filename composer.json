@@ -12,5 +12,20 @@
     "require": {
         "silverstripe/framework": "^4.0@dev",
         "silverstripe/cms": "^4.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Robbie\\MeetupDemo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Robbie\\MeetupDemo\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
     }
 }
