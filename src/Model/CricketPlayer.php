@@ -7,6 +7,8 @@ use SilverStripe\ORM\DataObject;
 
 class CricketPlayer extends DataObject
 {
+    private static $table_name = 'CricketPlayer';
+
     private static $db = array(
         'Name' => 'Varchar',
         'Birthday' => 'DBDatetime'
