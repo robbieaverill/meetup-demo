@@ -7,11 +7,13 @@ use SilverStripe\ORM\DataObject;
 
 class CricketTeam extends DataObject
 {
-    private static $db = array(
-        'Name' => 'Varchar'
-    );
+    private static $table_name = 'CricketTeam';
 
-    private static $has_many = array(
+    private static $db = [
+        'Name' => 'Varchar'
+    ];
+
+    private static $has_many = [
         'Players' => CricketPlayer::class
-    );
+    ];
 }
